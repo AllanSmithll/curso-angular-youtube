@@ -1,27 +1,14 @@
 # 01HelloWorld
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+## Compartilhamento de dados
 
-## Development server
+- Em Angular, podemos compartilhar dados do componente pai com o componente filho;
+- Para isso, usarei o exemplo de chamada do componente o nome do dados que será recebidoo com a seguinte sintaxe: [dado];
+- E no código .ts do componente filho vou utilizar o decorator @input, que tem papel entregar o dado para o template
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Diretivas
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Em Angular, temos um recurso chamado *diretivas*;
+- Que podem realizar diversas funções no sistema, como aplicr estilos a um elemento
+- Elas começam sempre com ng, o nome fica: ngAlgumaCoisa;
+- Vamos ver na prática
