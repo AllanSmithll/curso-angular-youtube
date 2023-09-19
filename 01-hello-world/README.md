@@ -19,3 +19,11 @@
 - Utilizar a diretiva ngIf para isso;
 - Os valores podem ser dinâmicos (propriedades), mas podemos realizar outros tipos de comparação
 - Há a possível também de imprimir um cenário para validação de falso, com o else.
+
+## Eventos
+
+- Podemos ativar eventos nos componentes para disparar algum método;
+- Um evento clássico que utilizamos mito é o click;
+- A sintaxe é: (click)="algumaFuncao()";
+- Os métodos ficaam na classe;
+- Usado para acessar APIs
