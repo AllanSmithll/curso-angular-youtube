@@ -27,3 +27,10 @@
 - A sintaxe é: (click)="algumaFuncao()";
 - Os métodos ficaam na classe;
 - Usado para acessar APIs
+
+## Emitindo eventos
+
+- Podemos comunicar eventos de um componente filho para o pai;
+- Para isso, vamos precisar do *@Output*, que vai fazer a saída do evento do componente filho;
+- *Na tag de invocação do componente no template*, escolhemos um método para executar quando o evento for emitido;
+Exemplo: `(emit)="onEmit()"`
