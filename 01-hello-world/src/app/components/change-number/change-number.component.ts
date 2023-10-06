@@ -9,6 +9,6 @@ export class ChangeNumberComponent {
   @Output() changeNumber: EventEmitter<Event> = new EventEmitter();
 
   handleClick() {
-    console.log("Clicou no botão");
+    this.changeNumber.emit();
   }
 }

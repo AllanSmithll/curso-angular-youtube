@@ -1,4 +1,5 @@
 <div class="class">
-    <h1>O número é:</h1>
-    <app-change-number></app-change-number>
+    <h1>Emitter</h1>
+    <h1>O número é: {{myNumber}}</h1>
+    <app-change-number (changeNumber)="onChangeNumber()"></app-change-number>
 </div>

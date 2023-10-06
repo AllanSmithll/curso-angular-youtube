@@ -31,6 +31,14 @@
 ## Emitindo eventos
 
 - Podemos comunicar eventos de um componente filho para o pai;
-- Para isso, vamos precisar do *@Output*, que vai fazer a saída do evento do componente filho;
-- *Na tag de invocação do componente no template*, escolhemos um método para executar quando o evento for emitido;
+- Para isso, vamos precisar do **@Output**, que vai fazer a saída do evento do componente filho;
+- **Na tag de invocação do componente no template**, escolhemos um método para executar quando o evento for emitido;
 Exemplo: `(emit)="onEmit()"`
+
+## Renderização de listas
+
+- Outro recurso importante é o *loop* em listas;
+- Para isso, vamos precisar de uma **propriedade com os itens da lista**;
+- E no template do componente, vamos utilizar o *ngFor*;
+- A sintaxe é: ***ngFor="let item of items"**
+- Desta maneira, podemos renderizar template baseado em dados.

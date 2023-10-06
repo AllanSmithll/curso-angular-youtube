@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./emitter.component.sass']
 })
 export class EmitterComponent {
+  myNumber: number = 10;
 
+  onChangeNumber() {
+    this.myNumber = Math.floor(Math.random() * 10)
+  }
 }
