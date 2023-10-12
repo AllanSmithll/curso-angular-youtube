@@ -1,4 +1,11 @@
 <div class="class">
     <h1>list-render</h1>
-    <p>Deucerto!</p>
+    <h2>Animais:</h2>
+    <ul>
+       <li *ngFor="let animal of animals">
+            Nome: {{animal.name}} - tipo: {{animal.type}}
+            <button (click)="showAge(animal)">Show age</button>
+       </li>
+       <h3>{{animalDetails}}</h3>
+    </ul>
 </div>

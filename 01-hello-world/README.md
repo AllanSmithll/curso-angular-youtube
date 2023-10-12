@@ -1,4 +1,4 @@
-# 01HelloWorld
+# 01HelloWorld - 12/10/2023
 
 ## Compartilhamento de dados
 
@@ -42,3 +42,18 @@ Exemplo: `(emit)="onEmit()"`
 - E no template do componente, vamos utilizar o *ngFor*;
 - A sintaxe é: ***ngFor="let item of items"**
 - Desta maneira, podemos renderizar template baseado em dados.
+
+## Importância das interfaces
+
+- Toda entidade que vamos trabalhar precisa de uma **interface**;
+- Isso vai tornar nosso código mais simples ao longo do programa;
+- Padronizando ele e **facilitando a manutenção**;
+- Vamos implementar uma interface à nossa lista de animais
+- E fazer um evento que tabém utilizará este recurso.
+
+## Pipe Operator
+
+- Os **pipe operators** são recursos para trabalhar com strings nos templates
+- Podemos realizar **diversas funções**, como deixar o texto em caixa alta;
+- A sintaxe é: **{{ dado | algum PipeOperator }}**;
+- Desta maneira, nos poupamos de regras de CSS ou manipulação de strings com JS.
