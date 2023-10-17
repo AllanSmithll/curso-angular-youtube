@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./pipes.component.sass']
 })
 export class PipesComponent {
+  someText = 'Testando o pipe operator'
 
+  today = new Date();
 }

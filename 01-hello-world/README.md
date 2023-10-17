@@ -57,3 +57,10 @@ Exemplo: `(emit)="onEmit()"`
 - Podemos realizar **diversas funções**, como deixar o texto em caixa alta;
 - A sintaxe é: **{{ dado | algum PipeOperator }}**;
 - Desta maneira, nos poupamos de regras de CSS ou manipulação de strings com JS.
+
+## Two way data binding
+
+- O **Two way data binding** é um recurso muito interessante para trabalho com formulários;
+- Basicamente conseguimos **alterar props** e o template com o preenchimento de inputs;
+- É necessário importar o **FormsModule** no componente principal;
+- É também declarar o **ngModel** no input, além de preencher também o atributo name, todos com o mesmo valor.
