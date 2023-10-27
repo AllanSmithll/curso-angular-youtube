@@ -64,3 +64,11 @@ Exemplo: `(emit)="onEmit()"`
 - Basicamente conseguimos **alterar props** e o template com o preenchimento de inputs;
 - É necessário importar o **FormsModule** no componente principal;
 - É também declarar o **ngModel** no input, além de preencher também o atributo name, todos com o mesmo valor.
+
+## Services
+
+- O **Service** é outra oparte fundamental da arquitetura Angular;
+- Geralmente ficam as **requisições para as APIs** que utilizamos no projeto;
+- Precisamos criar o service com: **ng generate service <nome>;
+- Importar no componente e iniciar no **constructor**;
+- Depois é possível acessar os métodos dele.
