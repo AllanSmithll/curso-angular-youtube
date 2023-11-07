@@ -72,3 +72,25 @@ Exemplo: `(emit)="onEmit()"`
 - Precisamos criar o service com: **ng generate service <nome>;
 - Importar no componente e iniciar no **constructor**;
 - Depois é possível acessar os métodos dele.
+
+## Angular Router
+
+- Nós vamos **criar um novo arquivo** para declarar nossas rotas;
+- Nele vamos importar os módutos RouterModule e Routes;
+Após a definição, estas rotas precisam ser importadas em app.module.ts
+- E por fim, **no template** principal, criamos as rotas;
+- E substituímos os componentes por: **<router-outlet>**
+
+## Requisições HTTP
+
+- Vamos realizar **requisições HTTP** nos nossos services;
+- Precisamos importar dois pacotes: **HttpClient** e **HttpHeaders**;
+- Neste exemplo utilizaremos uma API local para simular as request, com o **json-server**;
+- Por último, é necessário inicializar o módulo **HttpClientModule** em app.module.ts
+
+## Carregando dado individual
+
+- Para resgatar um dado do banco, vamos precisar criar uma **rota dinâmica** no nosso router;
+- **Baseado no id** do item, teremos a seleção de dado no banco, geralmente o id vem pela **URL**;
+- Para resgate parâmetros da URL, vamos utilizar o **ActivatedRoute**, um módulo de Angular;
+- A lógica para requisição HTTP ficará no **service**.
